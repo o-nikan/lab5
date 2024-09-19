@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contener {
+  margin: 0 auto;
+  width: 1405px;
+}
+
+.header {
+  background-color: #252424;
+}
+
+.header-text {
+  justify-content: space-between;
+  display: flex;
+}
+.header-text h1 {
+  font-weight: 300;
+  padding-top: 10px;
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 96px;
+  color: white;
+}
+.header-text img {
+  float: right;
+}
+
+.main {
+  height: 1354px;
+  background-color: #FFA843;
+}
+
+.main-sdvig {
+  padding-top: 81px;
+  display: flex;
+}
+
+.main-kartinka {
+  border: 12px solid black;
+  border-radius: 40px;
+  height: 340px;
+  width: 323px;
+}
+
+.main-nik {
+  padding-left: 51px;
+}
+.main-nik h2 {
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 48px;
+  padding-bottom: 41px;
+}
+.main-nik p {
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 36px;
+}
+
+.main-bron {
+  float: left;
+  padding-top: 173px;
+  width: 500px;
+}
+.main-bron button {
+  padding: 16px 55px;
+  border-radius: 10px;
+  width: 400px;
+  background: var(--Orange-Middle, #FF5710);
+  color: white;
+  font-family: "fira sans";
+  font-size: 32px;
+  text-decoration: none;
+}
+.main-bron h2 {
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 36px;
+}
+.main-bron input {
+  padding: 20px 100px 20px 20px;
+  font-family: "fira sans";
+  font-size: 32px;
+  font-weight: 200;
+  border-radius: 10px;
+  border: 4px solid white;
+  margin-top: 33px;
+}
+
+.main-button {
+  margin-top: 48px;
+  text-align: center;
+}
+.main-button a {
+  padding: 16px 75px;
+  border-radius: 10px;
+  width: 490px;
+  background: var(--Orange-Middle, #FF5710);
+  color: white;
+  font-family: "fira sans";
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.main-zabronirovano {
+  float: right;
+  padding-top: 170px;
+  padding-right: 80px;
+}
+.main-zabronirovano h2 {
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 36px;
+}
+
+.main-p p {
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 24px;
+  padding-bottom: 18px;
+}
+
+.main-span {
+  padding-left: 80px;
+}
+.main-span span {
+  font-family: "comfortaa";
+  margin: 0px;
+  font-size: 24px;
+}
+
+.main-text {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  background: url(./img/Group24.png) no-repeat;
+  height: 261px;
+}
+
+.footer-text img {
+  padding-top: 44px;
+  padding-left: 350px;
+}
+.footer-text a {
+  padding-right: 20px;
+  padding-top: 20px;
+  float: right;
+  color: white;
+  font-family: "fira sans";
+  font-size: 20px;
+  margin: 0px;
+  text-decoration: none;
+}/*# sourceMappingURL=style-10.css.map */

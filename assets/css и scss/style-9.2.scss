@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.contener {
+    margin: 0 auto;
+    width: 1405px;
+}
+
+
+.Avtorizaciia {
+    height: 1078px;
+    background: url(./img/1640849471_1-abrakadabra-fun-p-fon-dlya-rollov-1.jpg);
+}
+
+.Avtorizaciia-content {
+    background-color: white;
+      margin: 15% auto;
+      padding: 0px 0px 20px 0px;
+      border: 1px solid #888;
+      width: 550px;
+}
+
+
+.Avtorizaciia-header{
+    background-color: #252424;
+    height: 70px;
+    margin-bottom: 48px;
+    img {
+        padding-top: 5px;
+       display: flex;
+       margin: 0 auto;
+    }
+}
+
+.Avtorizaciia-text {
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    button {
+        padding: 16px 75px;
+        border-radius: 10px;
+        width: 490px;
+        background: var(--Orange-Middle, #FF5710);
+        color: white;
+        font-family: "fira sans";  
+        font-size: 32px;
+        text-decoration: none;
+    }
+    input {
+        margin-bottom: 33px;
+        padding: 10px 100px 10px 25px;
+        font-family: "fira sans";  
+        font-size: 24px;
+        border-radius: 10px;
+        border: 3px solid black;
+        font-weight: 200;
+    }
+    h1 {
+        color: white;
+        font-family: "Comfortaa";  
+        font-size: 48px;
+        font-weight: 400;
+        margin: 0px;
+        padding-bottom: 50px;
+    }
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+
+.Avtorizaciia-open {
+    float: right;
+    img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}

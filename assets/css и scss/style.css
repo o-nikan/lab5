@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media only screen and (max-width: 2560px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contener {
+    margin: 0 auto;
+    width: 1405px;
+  }
+  .header-text {
+    background-color: #252424;
+  }
+  .header-zagl {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .header-zagl a {
+    font-family: "comfortaa";
+    font-style: Regular;
+    color: white;
+    font-size: 36px;
+    margin: 0px;
+    text-decoration: none;
+  }
+  .header-login {
+    float: right;
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+  .header-login a {
+    cursor: pointer;
+    color: white;
+    font-family: "fira sans";
+    font-size: 24px;
+    font-style: SemiBold;
+    text-decoration: none;
+  }
+  .main {
+    background: url(./img/Group52.png) no-repeat;
+    height: 689px;
+  }
+  .main-text {
+    padding-top: 140px;
+  }
+  .main-text span {
+    font-family: "comfortaa";
+    font-style: Regular;
+    color: #FF4C00;
+    margin: 0px;
+    font-size: 96px;
+  }
+  .main-text h1 {
+    font-family: "comfortaa";
+    font-style: Regular;
+    color: white;
+    margin: 0px;
+    font-size: 64px;
+  }
+  .main-sviaz {
+    float: right;
+    padding-top: 535px;
+    padding-right: 75px;
+  }
+  .main-button {
+    margin-top: 170px;
+    padding-left: 50px;
+  }
+  .main-button a {
+    padding: 16px 75px;
+    border-radius: 10px;
+    width: 490px;
+    background: var(--Orange-Middle, #FF5710);
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    text-decoration: none;
+  }
+  .infa {
+    background: url(./img/Group53.png) no-repeat;
+    height: 1311px;
+  }
+  .infa-text {
+    padding-top: 80px;
+  }
+  .infa-text p {
+    float: right;
+    color: white;
+    font-family: "fira sans";
+    font-size: 40px;
+  }
+  .infa-text2 p {
+    color: white;
+    font-family: "fira sans";
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+  }
+  .infa-zagl {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .infa-zagl h2 {
+    font-family: "comfortaa";
+    font-style: Medium;
+    color: #ED5818;
+    margin: 0px;
+    font-size: 48px;
+  }
+  .infa-zagl p {
+    color: white;
+    font-family: "fira sans";
+    font-size: 40px;
+  }
+  .menu {
+    background: url(./img/Group54.png) no-repeat;
+    height: 980px;
+  }
+  .menu-zagl h2 {
+    font-family: "comfortaa";
+    font-style: Regular;
+    margin: 0px;
+    font-size: 64px;
+    color: white;
+  }
+  .menu-text span {
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .menu-text p {
+    padding-left: 20px;
+    line-height: 35px;
+    margin: 0px;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .menu-bludo {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-button {
+    padding-top: 65px;
+    text-align: center;
+  }
+  .menu-button a {
+    padding: 16px 75px;
+    border-radius: 10px;
+    width: 490px;
+    background: var(--Orange-Middle, #FF5710);
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    font-style: SemiBold;
+    text-decoration: none;
+  }
+  .zaiavka {
+    background: url(./img/Group58.png) no-repeat;
+    height: 467px;
+  }
+  .zaiavka-text {
+    text-align: center;
+    padding-top: 27px;
+  }
+  .zaiavka-text h2 {
+    font-family: "comfortaa";
+    font-style: Regular;
+    margin: 0px;
+    font-size: 48px;
+    color: white;
+  }
+  .zaiavka-text p {
+    line-height: 60px;
+    padding-top: 70px;
+    padding-bottom: 93px;
+    font-family: "comfortaa";
+    font-style: Regular;
+    margin: 0px;
+    font-size: 32px;
+    color: white;
+  }
+  .zaiavka-text a {
+    padding: 16px 75px;
+    border-radius: 10px;
+    width: 490px;
+    background: var(--Orange-Middle, #FF5710);
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    font-style: SemiBold;
+    text-decoration: none;
+  }
+  .footer {
+    background: url(./img/Group24.png) no-repeat;
+    height: 261px;
+  }
+  .footer-text img {
+    padding-top: 44px;
+    padding-left: 350px;
+  }
+  .footer-text a {
+    padding-right: 20px;
+    padding-top: 20px;
+    float: right;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    margin: 0px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header-text {
+    width: 1404px;
+    background-color: #252424;
+  }
+  .header-zagl {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .header-zagl a {
+    font-family: "comfortaa";
+    color: white;
+    font-size: 36px;
+    margin: 0px;
+    text-decoration: none;
+  }
+  .header-login {
+    float: right;
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+  .header-login a {
+    cursor: pointer;
+    color: white;
+    font-family: "fira sans";
+    font-size: 24px;
+    font-style: SemiBold;
+    text-decoration: none;
+  }
+  .main {
+    width: 1404px;
+    background: url(./img/Group52.png) no-repeat;
+    height: 689px;
+  }
+  .main-text {
+    padding-left: 100px;
+    padding-top: 140px;
+  }
+  .main-text span {
+    font-family: "comfortaa";
+    font-style: Regular;
+    color: #FF4C00;
+    margin: 0px;
+    font-size: 96px;
+  }
+  .main-text h1 {
+    font-family: "comfortaa";
+    font-style: Regular;
+    color: white;
+    margin: 0px;
+    font-size: 64px;
+  }
+  .main-sviaz {
+    float: right;
+    padding-top: 535px;
+    padding-right: 75px;
+  }
+  .main-button {
+    margin-top: 170px;
+    padding-left: 100px;
+  }
+  .main-button a {
+    padding: 16px 75px;
+    border-radius: 10px;
+    width: 490px;
+    background: var(--Orange-Middle, #FF5710);
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    text-decoration: none;
+  }
+  .infa {
+    width: 1404px;
+    background: url(./img/Group53.png) no-repeat;
+    height: 1311px;
+  }
+  .infa-text {
+    padding-top: 80px;
+  }
+  .infa-text p {
+    font-size: 38px;
+    padding-right: 30px;
+    float: right;
+    color: white;
+    font-family: "fira sans";
+  }
+  .infa-text img {
+    padding-bottom: 40px;
+    padding-left: 50px;
+    width: 55%;
+  }
+  .infa-text2 p {
+    color: white;
+    font-family: "fira sans";
+    font-size: 38px;
+    text-align: center;
+    margin: 0px;
+  }
+  .infa-zagl {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .infa-zagl h2 {
+    font-family: "comfortaa";
+    font-style: Medium;
+    color: #ED5818;
+    margin: 0px;
+    font-size: 48px;
+  }
+  .infa-zagl p {
+    color: white;
+    font-family: "fira sans";
+    font-size: 40px;
+  }
+  .menu {
+    width: 1404px;
+    background: url(./img/Group54.png) no-repeat;
+    height: 980px;
+  }
+  .menu-zagl {
+    padding-left: 40px;
+  }
+  .menu-zagl h2 {
+    font-family: "comfortaa";
+    font-style: Regular;
+    margin: 0px;
+    font-size: 64px;
+    color: white;
+  }
+  .menu-text span {
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .menu-text p {
+    padding-left: 20px;
+    line-height: 35px;
+    margin: 0px;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .menu-bludo {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-button {
+    padding-top: 65px;
+    text-align: center;
+  }
+  .menu-button a {
+    padding: 16px 75px;
+    border-radius: 10px;
+    width: 490px;
+    background: var(--Orange-Middle, #FF5710);
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    font-style: SemiBold;
+    text-decoration: none;
+  }
+  .zaiavka {
+    width: 1404px;
+    background: url(./img/Group58.png) no-repeat;
+    height: 467px;
+  }
+  .zaiavka-text {
+    text-align: center;
+    padding-top: 27px;
+  }
+  .zaiavka-text h2 {
+    font-family: "comfortaa";
+    font-style: Regular;
+    margin: 0px;
+    font-size: 48px;
+    color: white;
+  }
+  .zaiavka-text p {
+    line-height: 60px;
+    padding-top: 70px;
+    padding-bottom: 93px;
+    font-family: "comfortaa";
+    font-style: Regular;
+    margin: 0px;
+    font-size: 32px;
+    color: white;
+  }
+  .zaiavka-text a {
+    padding: 16px 75px;
+    border-radius: 10px;
+    width: 490px;
+    background: var(--Orange-Middle, #FF5710);
+    color: white;
+    font-family: "fira sans";
+    font-size: 32px;
+    font-style: SemiBold;
+    text-decoration: none;
+  }
+  .footer {
+    width: 1404px;
+    background: url(./img/Group24.png) no-repeat;
+    height: 261px;
+  }
+  .footer-text img {
+    padding-top: 44px;
+    padding-left: 350px;
+  }
+  .footer-text a {
+    padding-right: 20px;
+    padding-top: 20px;
+    float: right;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    margin: 0px;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=style.css.map */

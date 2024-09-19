@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media only screen and (max-width: 2560px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contener {
+    margin: 0 auto;
+    width: 1405px;
+  }
+  .header {
+    background-color: #252424;
+  }
+  .header-text {
+    justify-content: space-between;
+    display: flex;
+  }
+  .header-text h1 {
+    font-weight: 300;
+    padding-top: 10px;
+    font-family: "comfortaa";
+    margin: 0px;
+    font-size: 96px;
+    color: white;
+  }
+  .header-text img {
+    float: right;
+  }
+  .main {
+    height: 2496px;
+  }
+  .main-zagl {
+    text-align: center;
+  }
+  .main-zagl h1 {
+    padding-top: 59px;
+    padding-bottom: 60px;
+    font-family: "comfortaa";
+    margin: 0px;
+    font-size: 64px;
+  }
+  .main-zagl p {
+    font-family: "comfortaa";
+    margin: 0px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .main-img {
+    height: 720px;
+    display: flex;
+    padding-top: 115px;
+  }
+  .main-img-div {
+    display: grid;
+  }
+  .main-img-div img {
+    padding-bottom: 15px;
+  }
+  .main-img-div-1 {
+    display: grid;
+    padding-left: 15px;
+  }
+  .main-img-div-1 img {
+    padding-bottom: 15px;
+  }
+  .main-img-div-2 {
+    padding-left: 15px;
+  }
+  .main-img-div-2 img {
+    padding-bottom: 15px;
+  }
+  .main-img-1 {
+    padding-right: 67px;
+    float: right;
+    padding-top: 15px;
+  }
+  .main-img-2 {
+    display: flex;
+    padding-top: 405px;
+  }
+  .main-img-div-5 {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 170px;
+  }
+  .main-img-div-5 img {
+    padding-bottom: 15px;
+  }
+  .main-img-div-6 {
+    padding-top: 170px;
+  }
+  .main-img-div-6 img {
+    padding-bottom: 15px;
+  }
+  .footer {
+    background: url(./img/Group24.png) no-repeat;
+    height: 261px;
+  }
+  .footer-text img {
+    padding-top: 44px;
+    padding-left: 350px;
+  }
+  .footer-text a {
+    padding-right: 20px;
+    padding-top: 20px;
+    float: right;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    margin: 0px;
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contener {
+    margin: 0 auto;
+    width: 1405px;
+  }
+  .header {
+    width: 1404px;
+    background-color: #252424;
+  }
+  .header-text {
+    justify-content: space-between;
+    display: flex;
+  }
+  .header-text h1 {
+    padding-left: 30px;
+    font-weight: 300;
+    padding-top: 10px;
+    font-family: "comfortaa";
+    margin: 0px;
+    font-size: 96px;
+    color: white;
+  }
+  .header-text img {
+    padding-right: 30px;
+    float: right;
+  }
+  .main {
+    height: 2496px;
+  }
+  .main-zagl {
+    text-align: center;
+  }
+  .main-zagl h1 {
+    padding-top: 59px;
+    padding-bottom: 60px;
+    font-family: "comfortaa";
+    margin: 0px;
+    font-size: 64px;
+  }
+  .main-zagl p {
+    font-family: "comfortaa";
+    margin: 0px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .main-img {
+    padding-left: 30px;
+    height: 720px;
+    display: flex;
+    padding-top: 115px;
+  }
+  .main-img-div {
+    display: grid;
+  }
+  .main-img-div img {
+    padding-bottom: 15px;
+  }
+  .main-img-div-1 {
+    display: grid;
+    padding-left: 15px;
+  }
+  .main-img-div-1 img {
+    padding-bottom: 15px;
+  }
+  .main-img-div-2 {
+    padding-left: 15px;
+  }
+  .main-img-div-2 img {
+    padding-bottom: 15px;
+  }
+  .main-img-1 {
+    padding-left: 30px;
+    padding-right: 38px;
+    float: right;
+    padding-top: 15px;
+  }
+  .main-img-2 {
+    padding-left: 30px;
+    display: flex;
+    padding-top: 405px;
+  }
+  .main-img-div-5 {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 170px;
+  }
+  .main-img-div-5 img {
+    padding-bottom: 15px;
+  }
+  .main-img-div-6 {
+    padding-top: 170px;
+  }
+  .main-img-div-6 img {
+    padding-bottom: 15px;
+  }
+  .footer {
+    width: 1404px;
+    background: url(./img/Group24.png) no-repeat;
+    height: 261px;
+  }
+  .footer-text img {
+    padding-top: 44px;
+    padding-left: 350px;
+  }
+  .footer-text a {
+    padding-right: 20px;
+    padding-top: 20px;
+    float: right;
+    color: white;
+    font-family: "fira sans";
+    font-size: 20px;
+    margin: 0px;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=style-6.css.map */
